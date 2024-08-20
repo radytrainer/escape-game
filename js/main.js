@@ -41,3 +41,12 @@ button.addEventListener("click", () => {
     verify_code(code);
     inputCode.value = "";
 });
+
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    const code = inputCode.value;
+    verify_code(code);
+    inputCode.value = "";
+  }
+});
