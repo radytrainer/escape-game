@@ -3,25 +3,25 @@ function verify_code(code) {
     Swal.fire({
         imageUrl: "images/lock.gif",
         imageWidth: 100,
-        text: "Key #1"
+        text: "Key 🔑#1"
       });
   }else if (code === "6745") {
     Swal.fire({
         imageUrl: "images/lock.gif",
         imageWidth: 100,
-        text: "Key #2"
+        text: "Key 🔑#2"
       });
   } else if (code === "2484") {
     Swal.fire({
         imageUrl: "images/lock.gif",
         imageWidth: 100,
-        text: "Key #3"
+        text: "Key 🔑#3"
       });
   } else if (code === "3177") {
     Swal.fire({
         imageUrl: "images/lock.gif",
         imageWidth: 100,
-        text: "Key #4"
+        text: "Key 🔑#4"
       });
   } else {
     Swal.fire({
